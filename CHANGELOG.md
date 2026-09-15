@@ -12,7 +12,7 @@
 - `LICENSE` MIT + ملاحظة Higgsfield في ATTRIBUTION
 - `install.sh` مثبت سطر واحد: `curl -fsSL ... | bash` مع `--agent` flag
 - `README.ar.md` عربي كامل + badge للمعرض المباشر في README.md
-- `.github/workflows/pages.yml` نشر المعرض على `https://mot1209.github.io/King-desifn`
+- `.github/workflows/pages.yml` نشر المعرض على `https://mot1209.github.io/King-design`
 - `.github/ISSUE_TEMPLATE/` قوالب بلاغات عربية
 
 ### 🔧 Fixes

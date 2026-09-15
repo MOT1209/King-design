@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="README.md">🇺🇸 English</a> &nbsp;·&nbsp;
-  <a href="https://mot1209.github.io/King-desifn/"><strong>🌐 المعرض المباشر</strong></a> &nbsp;·&nbsp;
+  <a href="https://mot1209.github.io/King-design/"><strong>🌐 المعرض المباشر</strong></a> &nbsp;·&nbsp;
   <a href="install.sh">⚡ تثبيت بسطر واحد</a>
 </p>
 
@@ -26,7 +26,7 @@
 
 من الواجهات الزجاجية إلى كشف المنتجات — ابدأ باتجاه بصري يمكنك مشاهدته فعلاً. **اضغط أي صورة لتشغيل الفيلم الأصلي.**
 
-> المعرض المباشر: **https://mot1209.github.io/King-desifn** — يعمل بدون تحميل
+> المعرض المباشر: **https://mot1209.github.io/King-design** — يعمل بدون تحميل
 
 | الأسلوب | الوصف | الأفضل لـ |
 |---|---|---|
@@ -43,15 +43,15 @@
 ### ⚡ بسطر واحد (موصى به)
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/MOT1209/King-desifn/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/MOT1209/King-design/main/install.sh | bash
 # مع تحديد الوكيل:
-curl -fsSL https://raw.githubusercontent.com/MOT1209/King-desifn/main/install.sh | bash -s -- --agent pi
+curl -fsSL https://raw.githubusercontent.com/MOT1209/King-design/main/install.sh | bash -s -- --agent pi
 ```
 
 ### يدوي
 
 ```sh
-git clone https://github.com/MOT1209/King-desifn.git /tmp/motion-design
+git clone https://github.com/MOT1209/King-design.git /tmp/motion-design
 cp -r /tmp/motion-design/skills/motion-design ~/.claude/skills/motion-design  # Claude Code
 cp -r /tmp/motion-design/skills/motion-design ~/.pi/agent/skills/motion-design  # Pi
 cp -r /tmp/motion-design/skills/motion-design .cursor/skills/motion-design       # Cursor

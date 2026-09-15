@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -e
-# King-desifn — Universal One-liner Installer
-# Usage: curl -fsSL https://raw.githubusercontent.com/MOT1209/King-desifn/main/install.sh | bash
-#    or: curl -fsSL https://raw.githubusercontent.com/MOT1209/King-desifn/main/install.sh | bash -s -- --agent pi
-REPO="https://github.com/MOT1209/King-desifn.git"
+# King-design — Universal One-liner Installer
+# Usage: curl -fsSL https://raw.githubusercontent.com/MOT1209/King-design/main/install.sh | bash
+#    or: curl -fsSL https://raw.githubusercontent.com/MOT1209/King-design/main/install.sh | bash -s -- --agent pi
+REPO="https://github.com/MOT1209/King-design.git"
 BRANCH="main"
 
 AGENT=""
@@ -66,7 +66,7 @@ echo "  Endpoint: https://mcp.higgsfield.ai/mcp"
 echo "  Claude : claude mcp add --transport http --scope user higgsfield https://mcp.higgsfield.ai/mcp"
 echo "  Pi     : pi mcp add higgsfield --transport http --url https://mcp.higgsfield.ai/mcp"
 echo "  Cursor : Settings → MCP → Add HTTP server"
-echo "  Docs   : https://github.com/MOT1209/King-desifn/blob/main/docs/setup-universal.md"
+echo "  Docs   : https://github.com/MOT1209/King-design/blob/main/docs/setup-universal.md"
 echo ""
 echo "  Prompt & gallery work without MCP."
 echo ""
