@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="224" viewBox="0 0 1120 224" role="img" aria-labelledby="title desc">
+<title id="title">King-design</title>
+<desc id="desc">King-design wordmark — dark variant with royal crown.</desc>
+<style>
+.trail-one{animation:drift 4s ease-in-out infinite}
+.trail-two{animation:drift 4s .18s ease-in-out infinite}
+@keyframes drift{0%,65%,100%{transform:translateX(0)}25%{transform:translateX(-7px)}}
+@media(prefers-reduced-motion:reduce){.trail-one,.trail-two{animation:none}}
+.word{font-family:"Space Grotesk", system-ui, -apple-system, sans-serif; font-weight:800; letter-spacing:-0.04em}
+</style>
+<g fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path class="trail-one" d="M26 151L54 71L85 127L116 71L144 151" stroke="#8B7CF8" stroke-width="10" opacity=".18"/>
+  <path class="trail-two" d="M42 151L70 71L101 127L132 71L160 151" stroke="#8B7CF8" stroke-width="10" opacity=".42"/>
+  <path d="M58 151L86 71L117 127L148 71L176 151" stroke="#A78BFA" stroke-width="14"/>
+  <circle cx="86" cy="71" r="6" fill="#FDE68A" stroke="none"/>
+  <circle cx="148" cy="71" r="6" fill="#FDE68A" stroke="none"/>
+  <circle cx="117" cy="127" r="4.5" fill="#FDE68A" opacity="0.95"/>
+</g>
+<text x="222" y="155" class="word" font-size="112" fill="#F0F4FF">King<tspan fill="#A78BFA">-</tspan><tspan fill="#F0F4FF" font-weight="600">design</tspan></text>
+<text x="222" y="185" font-family="system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="0.18em" fill="#9AA4B8">UNIVERSAL • ANY AGENT • MOTION</text>
+</svg>
