@@ -1,0 +1,13 @@
+{
+  "name": "@mot1209/motion-design",
+  "version": "5.0.0",
+  "description": "Universal motion design skill — 10 presets, any agent, Higgsfield MCP",
+  "keywords": ["motion-design", "higgsfield", "skill", "claude-code", "codex", "cursor", "pi"],
+  "license": "MIT",
+  "repository": "https://github.com/MOT1209/motion-design",
+  "homepage": "https://mot1209.github.io/motion-design",
+  "files": ["skills/", "docs/", "install.sh", "LICENSE", "README.md", "README.ar.md"],
+  "bin": {
+    "motion-design": "./scripts/install-universal.sh"
+  }
+}
