@@ -21,6 +21,13 @@
   <a href="#how-it-works">How it works</a>
 </p>
 
+<p align="center">
+  <a href="README.ar.md">🇸🇦 العربية</a> &nbsp;·&nbsp;
+  <a href="https://mot1209.github.io/motion-design/"><strong>🌐 Live Gallery</strong></a> &nbsp;·&nbsp;
+  <a href="install.sh">⚡ One-liner Install</a> &nbsp;·&nbsp;
+  <a href="LICENSE">MIT License</a>
+</p>
+
 ---
 
 ## The motion library
@@ -113,10 +120,17 @@ Choose a look, select Codex or Claude Code, add your brief and copy the request 
 
 Install the same skill on **any agent** (Codex, Claude Code, Cursor, Pi, Windsurf, Generic), then optionally connect Higgsfield for generation. Browsing and prompt drafting work with **no connection**.
 
-### Any Agent (universal)
+### ⚡ One-liner (recommended)
 
 ```sh
-git clone https://github.com/cth9191/motion-design.git /tmp/motion-design
+curl -fsSL https://raw.githubusercontent.com/MOT1209/motion-design/main/install.sh | bash
+# or with agent: curl -fsSL https://raw.githubusercontent.com/MOT1209/motion-design/main/install.sh | bash -s -- --agent pi
+```
+
+### Manual — Any Agent
+
+```sh
+git clone https://github.com/MOT1209/motion-design.git /tmp/motion-design
 cp -r /tmp/motion-design/skills/motion-design ~/.claude/skills/motion-design  # Claude Code
 cp -r /tmp/motion-design/skills/motion-design ~/.pi/agent/skills/motion-design  # Pi
 cp -r /tmp/motion-design/skills/motion-design .cursor/skills/motion-design       # Cursor

@@ -20,3 +20,9 @@ jobs:
         run: python skills/motion-design/scripts/build_gallery.py
       - name: Check generated files are current
         run: git diff --exit-code -- skills/motion-design/assets/gallery.html skills/motion-design/references/preset-index.md
+      - name: Check universal agents
+        run: |
+          ls skills/motion-design/agents/*.yaml
+          echo "Agents found: $(ls skills/motion-design/agents/*.yaml | wc -l)"
+          test -f LICENSE
+          test -f docs/setup-universal.md
