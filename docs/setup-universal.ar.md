@@ -5,9 +5,9 @@
 ## 1. التثبيت
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/MOT1209/motion-design/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/MOT1209/King-desifn/main/install.sh | bash
 # مع تحديد الوكيل:
-curl -fsSL https://raw.githubusercontent.com/MOT1209/motion-design/main/install.sh | bash -s -- --agent pi
+curl -fsSL https://raw.githubusercontent.com/MOT1209/King-desifn/main/install.sh | bash -s -- --agent pi
 ```
 
 أو يدوياً:
@@ -38,5 +38,5 @@ curl -fsSL https://raw.githubusercontent.com/MOT1209/motion-design/main/install.
 
 ## 4. المعرض
 
-https://mot1209.github.io/motion-design
+https://mot1209.github.io/King-desifn
 أو محلياً: `python -m http.server 8765 --directory skills/motion-design` ثم افتح `/assets/gallery.html`

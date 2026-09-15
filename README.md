@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  Turn a product, website or idea into a complete motion film.<br />
+  <strong>King-desifn</strong> — Turn a product, website or idea into a complete motion film.<br />
   Choose a look. Adapt the prompt. Generate with Higgsfield.
 </p>
 
@@ -23,7 +23,7 @@
 
 <p align="center">
   <a href="README.ar.md">🇸🇦 العربية</a> &nbsp;·&nbsp;
-  <a href="https://mot1209.github.io/motion-design/"><strong>🌐 Live Gallery</strong></a> &nbsp;·&nbsp;
+  <a href="https://mot1209.github.io/King-desifn/"><strong>🌐 Live Gallery</strong></a> &nbsp;·&nbsp;
   <a href="install.sh">⚡ One-liner Install</a> &nbsp;·&nbsp;
   <a href="LICENSE">MIT License</a>
 </p>
@@ -123,14 +123,14 @@ Install the same skill on **any agent** (Codex, Claude Code, Cursor, Pi, Windsur
 ### ⚡ One-liner (recommended)
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/MOT1209/motion-design/main/install.sh | bash
-# or with agent: curl -fsSL https://raw.githubusercontent.com/MOT1209/motion-design/main/install.sh | bash -s -- --agent pi
+curl -fsSL https://raw.githubusercontent.com/MOT1209/King-desifn/main/install.sh | bash
+# or with agent: curl -fsSL https://raw.githubusercontent.com/MOT1209/King-desifn/main/install.sh | bash -s -- --agent pi
 ```
 
 ### Manual — Any Agent
 
 ```sh
-git clone https://github.com/MOT1209/motion-design.git /tmp/motion-design
+git clone https://github.com/MOT1209/King-desifn.git /tmp/motion-design
 cp -r /tmp/motion-design/skills/motion-design ~/.claude/skills/motion-design  # Claude Code
 cp -r /tmp/motion-design/skills/motion-design ~/.pi/agent/skills/motion-design  # Pi
 cp -r /tmp/motion-design/skills/motion-design .cursor/skills/motion-design       # Cursor
